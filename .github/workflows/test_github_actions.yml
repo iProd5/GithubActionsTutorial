@@ -1,4 +1,4 @@
-name: Github Actions Example
+name: Github Actions Test
 
 on:
   pull_request:
@@ -20,5 +20,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Install
       run: npm install
-    - name: Test
+    - name: Testing
       run: npm test
